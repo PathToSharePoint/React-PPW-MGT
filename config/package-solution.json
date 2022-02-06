@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-ppw-mgt-client-side-solution",
+    "id": "d47dab26-f6ee-4aa3-8950-e855c7ac0995",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "People.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      }
+    ],
+    "developer": {
+      "name": "Christophe Humbert",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0-beta.5"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-ppw-mgt"
+      },
+      "longDescription": {
+        "default": "react-ppw-mgt"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-ppw-mgt Feature",
+        "description": "The feature that activates elements of the react-ppw-mgt solution.",
+        "id": "280db20a-6aaf-4d73-9843-b7d54ed38d56",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-ppw-mgt.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "version": "1.14.0-beta.5",
+    "libraryName": "react-ppw-mgt",
+    "libraryId": "d47dab26-f6ee-4aa3-8950-e855c7ac0995",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-ppw-mgt",
+    "solutionShortDescription": "react-ppw-mgt description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
